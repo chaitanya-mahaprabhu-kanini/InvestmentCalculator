@@ -1,0 +1,25 @@
+.encompass {
+  max-width: 60vw;
+  max-height: 100vh;
+  background-color: white;
+  padding: 4rem;
+  border-radius: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  border: 0.5rem solid purple;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  color: white;
+}
+
+.buttons{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
