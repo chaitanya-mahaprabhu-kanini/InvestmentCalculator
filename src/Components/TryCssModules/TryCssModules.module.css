@@ -1,0 +1,26 @@
+*{
+    background-color: black;
+}
+
+.btn-test{
+    background-color: plum;
+    border-radius: 2rem;
+    width: 20rem;
+    height: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+
+.para{
+    font-family: cursive;
+    color: purple;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+
+.encompass{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
